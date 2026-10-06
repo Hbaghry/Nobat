@@ -1,0 +1,15 @@
+{
+  "daily_reset": true,
+  "confirm_before_print": true,
+  "print_copies": 2,
+  "current_number": 2,
+  "last_printed_number": 2,
+  "last_reset_date": "1405/07/09",
+  "logo_path": "",
+  "show_logo": false,
+  "header_text": "قهوه باران",
+  "footer_text": "خوش آمدید",
+  "menu_enabled": true,
+  "menu_items_text": "چای\nقهوه\nآب معدنی\nکیک\nآبمیوه\nبستنی\nمعجون\nآیس پک",
+  "print_order_with_number": true
+}
