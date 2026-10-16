@@ -11,6 +11,7 @@ jobs:
   build-android:
     name: Build APK with Buildozer
     runs-on: ubuntu-22.04
+    timeout-minutes: 90
 
     steps:
       - name: Checkout repository
@@ -62,6 +63,7 @@ jobs:
           buildozer -v android debug
         env:
           CI: true
+          APP_ANDROID_ACCEPT_SDK_LICENSE: "1"
 
       - name: Upload APK artifact
         uses: actions/upload-artifact@v4
